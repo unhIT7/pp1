@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/* sub3 - common - S */
+.header {
+  width: 100%; height: 70px;
+  background-color: #fff;
+}
+.header .inner{top: 0;}
+.sub-inner{
+  width: 1110px;
+  position: relative;
+}
+.sub1-inner{
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+.page-header{
+  margin-bottom: 110px; padding-top: 70px;
+  font-weight: 700; font-size: 40px; line-height: 60px; color: #111; text-align: center;
+}
+.page-header h2{margin-bottom: 70px;}
+.page-visual{
+  width: 100%;height: 450px;
+  font-weight: 400; font-size: 18px; line-height: 70px; color: #fff; text-align: left;
+}
+.page-visual-txt{
+  width: 1320px; height: 118px;
+  margin: 0 auto; padding: 48px 60px 0;
+  background-color: #111;
+}
+.page-logo{
+  display: inline-block;
+  width: 182px;height: 70px;
+  margin-right: 55px;
+  text-indent: -9999px;
+  background-image: url(/pp1/img/img_logo_hbyh.png);
+}
+.page-visual-txt p{
+  display: inline-block;
+}
+.page-visual-txt a{
+  float: right;
+  width: 153px;height: 36px;
+  margin-top: 15px;
+  border: 2px solid #fff;
+  font-size: 14px; line-height: 36px; text-indent: 15px;
+  position: relative;
+}
+.page-visual-txt a::after{
+  content: "";
+  width: 20px;height: 7px;
+  background-image: url(/pp1/img/small-arrow.png);
+  position: absolute; right: 18px;top: 14px;
+}
+.sec{
+  width: 100%;  
+  margin-bottom: 110px;
+}
+.sec h3{
+  margin-bottom: 25px;
+  font-weight: 900; font-size: 32px; line-height: 60px; color: #111;
+}
+/* sub3 - common - E */
+/* sub3-1 - S */
+.intro-wrap > div{
+  width: 100%;height: 424px;
+  padding-top: 70px;
+  border-top: 1px solid #111;
+  background-repeat: no-repeat;
+}
+.intro-wrap > div:nth-child(1){background-image: url(/pp1/img/img_brand_hbyh_intro01.png);}
+.intro-wrap > div:nth-child(2){background-image: url(/pp1/img/img_brand_hbyh_intro02.png);}
+.intro-wrap > div:nth-child(3){background-image: url(/pp1/img/img_brand_hbyh_intro03.png);}
+.intro-wrap > div:nth-child(4){
+  height: 423px;
+  border-bottom: 1px solid #111;
+  background-image: url(/pp1/img/img_brand_hbyh_intro04.png);
+}
+.intro-wrap > div:nth-child(2n-1){
+  width: 860px;
+  padding-left: 580px;
+}
+.intro-wrap > div:nth-child(2n){
+  width: 1380px;
+  padding-left: 60px;
+  background-position: right;
+}
+.intro-wrap h4{font-weight: 700; font-size: 28px; color: #111;}
+.intro-wrap > div:nth-child(1) h4{margin-bottom: 280px;}
+.intro-wrap > div:nth-child(2) h4{margin-bottom: 140px;}
+.intro-wrap > div:nth-child(3) h4{margin-bottom: 155px;}
+.intro-wrap > div:nth-child(4) h4{margin-bottom: 255px;}
+.intro-wrap em{
+  float: left;
+  width: 220px;
+  font-weight: 700; font-size: 22px; line-height: 30px; color: #111;
+}
+.intro-wrap p{
+  float: left;
+  width: 570px;
+  font-weight: 400; font-size: 18px; line-height: 27px; color: #111;
+}
+.intro-wrap li{
+  float: left;
+  margin-bottom: 30px;
+}
+.news{margin-bottom: 160px;}
+.news li{
+  float: left;
+  width: 468px;height: 468px;
+  text-indent: -9999px;
+}
+.news li + li{margin: 0 0 18px 18px;}
+.news ul li:nth-child(3n+1){margin-left: 0;}
+.news ul li:nth-child(n+7){margin-bottom: 40px;}
+.news li a{
+  display: block;
+  width: 468px;height: 468px;
+}
+.news li:nth-child(1) a{background-image: url(/pp1/img/news-img1.jpg);}
+.news li:nth-child(2) a{background-image: url(/pp1/img/news-img2.jpg);}
+.news li:nth-child(3) a{background-image: url(/pp1/img/news-img3.jpg);}
+.news li:nth-child(4) a{background-image: url(/pp1/img/news-img4.jpg);}
+.news li:nth-child(5) a{background-image: url(/pp1/img/news-img5.jpg);}
+.news li:nth-child(6) a{background-image: url(/pp1/img/news-img6.jpg);}
+.news li:nth-child(7) a{background-image: url(/pp1/img/news-img7.jpg);}
+.news li:nth-child(8) a{background-image: url(/pp1/img/news-img8.jpg);}
+.news li:nth-child(9) a{background-image: url(/pp1/img/news-img9.jpg);}
+.more{
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  font-weight: 400; font-size: 16px; line-height: 25px; color: #111;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.more::after{
+  content: "";
+  width: 48px;height: 1px;
+  background-color: #111;
+  position: absolute;left: 6px;bottom: 0;
+}
+/* sub3-1 - E */

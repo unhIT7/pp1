@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/* sub2 - common - S */
+.sub-inner{
+  width: 1110px;
+  position: relative;
+}
+.sub1-inner{
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+.page-header{
+  padding: 70px 0 45px 0;
+  font-weight: 700; font-size: 40px; line-height: 60px; color: #111; text-align: center;
+}
+.main .sec{padding: 80px 0 105px;}
+.main .sec-header{
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: 700; font-size: 28px; color: #111; line-height: 70px;
+  position: relative;
+}
+/* sub2 - common - E */
+
+/* sub5-1 - S */
+.visual{
+  width: 100%;min-width: 1920px; height: 640px;
+  margin: 0 auto;
+  font-weight: 700; font-size: 40px; line-height: 60px; color: #fff;
+  background-image: url(/pp1/img/sub5-visual.png);
+}
+.visual a{
+  display: block;
+  width: 100%;min-width: 1920px; height: 640px;
+  padding-top: 425px;
+  box-sizing: border-box;
+}
+/* lnb - S */
+/* .lnb{display: none;} */
+.lnb-box{
+  float: right;
+  width: 190px;
+  margin-top: 80px;
+}
+.lnb strong{
+  display: inline-block;
+  width: 190px;height: 50px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #111;
+  font-weight: 700; font-size: 18px; line-height: 50px; color: #111;
+  position: relative;
+}
+.lnb-list li{
+  width: 100%;height: 65px;
+  border-bottom: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  font-weight: 700; font-size: 16px; line-height: 65px; color: #333; text-indent: 35px;
+}
+.lnb-list li a{
+  display: block;
+  width: 100%; height: 65px;
+  position: relative;
+}
+.lnb-list li a::before{
+  content: "";
+  width: 20px;height: 20px;
+  background-repeat: no-repeat;
+  position: absolute;left: 0;top: 24px;
+}
+.lnb-list li:nth-child(1) a::before{background-image: url(/pp1/img/ico_pc_card_information_24.png);}
+.lnb-list li:nth-child(2) a::before{background-image: url(/pp1/img/ico_pc_useage_24.png);}
+.lnb-list li:nth-child(3) a::before{background-image: url(/pp1/img/ico_pc_paystub_24.png);}
+.lnb-list li:nth-child(4) a::before{background-image: url(/pp1/img/ico_pc_payment_24.png);}
+.lnb-list li:nth-child(5) a::before{background-image: url(/pp1/img/ico_pc_limit_24.png);}
+.lnb-list li:nth-child(6) a::before{background-image: url(/pp1/img/ico_pc_information_24.png);}
+.lnb-list li:nth-child(7) a::before{background-image: url(/pp1/img/ico_pc_payment_change_24.png);}
+.lnb-list li:nth-child(8) a::before{background-image: url(/pp1/img/ico_pc_auto_payment_24.png);}
+.lnb-list li:nth-child(9) a::before{background-image: url(/pp1/img/ico_pc_confirmation_24.png);}
+.lnb-list li:nth-child(10) a::before{background-image: url(/pp1/img/ico_pc_password_24.png);}
+.lnb-list li a::after{
+  content: "";
+  width: 17px;height: 8px;
+  background-image: url(/pp1/img/ico_arrow_link_20_black.png);
+  position: absolute;right: 0;top: 28px;
+}
+
+/* lnb - E */
+
+/* sub-wrap - S */
+.banner{width: 100%;}
+.banner-slide{margin-bottom: 20px;}
+.banner-slide .swiper-slide{
+  width: 549px;height: 254px;
+  padding: 53px 0 0 290px;
+  box-sizing: border-box;
+  position: relative;
+}
+.banner-slide .swiper-slide a{
+  display: block;
+  width: 100%;height: 200px;
+}
+.banner-slide .swiper-slide p{font-weight: 700; font-size: 18px; line-height: 47px; color: #111;}
+.banner-slide .b-slide1{background-image: url(/pp1/img/img_pc_card_list01.jpg);}
+.banner-slide .b-slide2{background-image: url(/pp1/img/img_pc_card_list02.jpg);}
+.banner-slide .b-slide3{background-image: url(/pp1/img/img_pc_card_list03.jpg);}
+.banner-slide .b-slide4{background-image: url(/pp1/img/img_pc_card_list04.jpg);}
+
+.banner-slide .swiper-slide li{
+  padding-left: 30px;
+  font-weight: 700; font-size: 14px; line-height: 32px;
+}
+.banner-slide .b-slide4 li:last-child{line-height: 1.7;}
+.banner-slide .swiper-slide .thin{font-weight: 400; font-size: 13px; line-height: 1.5;}
+.banner .sub-inner > a {
+  float: right;
+  padding-right: 20px;
+  font-weight: 700; font-size: 14px; line-height: 20px;
+  position: relative;
+}
+.banner .sub-inner > a::after{
+  content: "";
+  width: 16px;height: 16px;
+  background: url(/pp1/img/ico_arrow_right_16_black.png) 0 0 / contain;
+  position: absolute; right: 0;top: 50%;
+  transform: translateY(-50%);
+}
+
+.event{
+  height: 200px;
+  padding: 65px;
+  background-image: url(/pp1/img/img_pc_banner_cardmain_weclomelounge.jpg);
+  box-sizing: border-box;
+}
+.event p:first-child{font-weight: 700; font-size: 22px; line-height: 35px;}
+.event p:last-child{line-height: 30px;}
+
+.custom{
+  width: 100%;height: 120px;
+  margin-bottom: 160px;
+}
+.custom-link li{
+  float: left;
+  width: 330px; height: 120px;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  box-sizing: border-box;
+  position: relative;
+}
+.custom-link li + li {margin-left: 36px;}
+.custom-link li a{
+  display: block;
+  width: 456px; height: 120px;
+}
+.custom-link li span{
+  font-weight: 400; font-size: 14px; line-height: 26px; color: #777;
+  position: absolute; left: 97px;top: 28px;
+}
+.custom-link li em{font-weight: 700; font-size: 18px; line-height: 26px; color: #333;}
+.custom-link li span::before{
+  content: "";
+  width: 48px;height: 48px;
+  position: absolute; left: -80px;top: 50%;
+  transform: translateY(-50%);
+  background-size: contain;
+}
+.custom-link li:nth-child(1) span::before{background-image: url(/pp1/img/ico_pc_customer_service_48.png);}
+.custom-link li:nth-child(2) span::before{background-image: url(/pp1/img/ico_pc_chat_48.png);}
+.custom-link li:nth-child(3) span::before{background-image: url(/pp1/img/ico_pc_request_48.png);}
+.custom-link li a::after{
+  content: "";
+  width: 42px;height: 14px;
+  background-image: url(/pp1/img/more-arrow.png);
+  position: absolute; right: 40px;top: 70px;
+}
+/* sub-wrap - E */
+/* sub5-1 - E */
