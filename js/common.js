@@ -1,3 +1,4 @@
+// header - S
 const otherOpen = document.querySelector('.other > button');
 const otherList = document.querySelector('.other');
 
@@ -39,6 +40,9 @@ schChoice.addEventListener('click', () => {
   choice.classList.toggle('list');
 });
 
+// header - E
+
+// footer - S
 const familyOn = document.querySelector('.f-family-tit');
 const familySite = document.querySelector('.f-family-choice');
 const familyOff = document.querySelector('.f-family-choice > .f-family-tit');
@@ -60,3 +64,10 @@ fLangOn.addEventListener('click', () => {
 fLangOff.addEventListener('click', () => {
   fLang.classList.remove('on');
 });
+
+const toTop = document.querySelector('.fixed-menu > a')
+
+toTop.addEventListener('click', () => {
+  window.scrollTo(0,0);
+})
+// footer - E
