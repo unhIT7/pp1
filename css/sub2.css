@@ -1,24 +1,7 @@
 @charset "UTF-8";
 
 /* sub2 - common - S */
-.header {
-  width: 100%; height: 70px;
-  background-color: #fff;
-}
-.header .inner{top: 0;}
-.sub-inner{
-  width: 1110px;
-  position: relative;
-}
-.sub1-inner{
-  width: 1110px;
-  margin: 0 auto;
-  position: relative;
-}
-.page-header{
-  padding: 70px 0 45px 0;
-  font-weight: 700; font-size: 40px; line-height: 60px; color: #111; text-align: center;
-}
+.page-header{padding: 140px 0 45px 0;}
 /* sub2 - common - E */
 
 /* sub2-1 - S */

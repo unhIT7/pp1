@@ -1,19 +1,6 @@
 @charset "UTF-8";
 
 /* sub2 - common - S */
-.sub-inner{
-  width: 1110px;
-  position: relative;
-}
-.sub1-inner{
-  width: 1110px;
-  margin: 0 auto;
-  position: relative;
-}
-.page-header{
-  padding: 70px 0 45px 0;
-  font-weight: 700; font-size: 40px; line-height: 60px; color: #111; text-align: center;
-}
 .main .sec{padding: 80px 0 105px;}
 .main .sec-header{
   display: inline-block;
