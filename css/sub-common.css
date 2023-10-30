@@ -1,4 +1,7 @@
-.header.sub {top: 0;}
+.header.sub {
+  width: 100%;
+  top: 0;
+}
 .sub-inner{
   width: 1110px;
   position: relative;
