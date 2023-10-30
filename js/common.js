@@ -1,4 +1,17 @@
 // header - S
+const header = document.querySelector('.header')
+
+let hTop = header.offset().top;
+window.scroll(function() {
+  let window = this.scrollTop();
+
+  if(hTop <= window) {
+    header.classList.add("fix");
+  } else {
+    header.classList.remove("fix");
+  }
+})
+
 const otherOpen = document.querySelector('.other > button');
 const otherList = document.querySelector('.other');
 
