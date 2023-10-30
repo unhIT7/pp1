@@ -298,6 +298,9 @@ img{vertical-align: middle;}
 }
 .header.fix .depth2-box > a{margin-right: 0;}
 /* header.fix - E */
+/* header.sub - S */
+.header.sub {top: 0;}
+/* header.sub - E */
 /****************************** HEADER - E ************************************/
 
 /****************************** FOOTER - S ************************************/
