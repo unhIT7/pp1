@@ -1,16 +1,16 @@
 // header - S
-const header = document.querySelector('.header')
+const header = document.querySelector('.header');
 
-let hTop = header.offset().top;
-window.scroll(function() {
-  let window = this.scrollTop();
-
-  if(hTop <= window) {
+window.addEventListener("scroll", function () {
+  let win = window.scrollY;
+  // 헤더에 들어가는 이벤트일 경우 수치값으로 하고, 중간에 들어가는 섹션에 스크롤 이벤트를 적용할 때는 해당 섹션의 scrollY를 구하여 변수로 할당하고 '그 변수의 값을 지나가면' 형식으로 if문 조건을 작성한다.
+  if (win > 100) {
     header.classList.add("fix");
   } else {
     header.classList.remove("fix");
   }
-})
+});
+
 
 const otherOpen = document.querySelector('.other > button');
 const otherList = document.querySelector('.other');
