@@ -437,12 +437,6 @@
   transform: translateY(-80px);
 }
 .contents-left li:nth-child(2) span{top: 263px;}
-.contents-left li:nth-child(1){background-image: url(/pp1/img/img_con01.jpg);}
-.contents-left li:nth-child(2){background-image: url(/pp1/img/img_con02.jpg);}
-.contents-left li:nth-child(3){background-image: url(/pp1/img/img_con03.jpg);}
-.contents-right li:nth-child(1){background-image: url(/pp1/img/img_con04.jpg);}
-.contents-right li:nth-child(2){background-image: url(/pp1/img/img_con05.jpg);}
-.contents-right li:nth-child(3){background-image: url(/pp1/img/img_con06.jpg);}
 .contents-box a{
   display: none;
   width: 351px;height: 351px;
