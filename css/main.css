@@ -792,7 +792,7 @@
   font-size: 240px;
   line-height: 840px;
   color: #fff;
-  -webkit-text-stroke: 1px #bbb;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   position: absolute;
   left: 0;
   top: 0px;
